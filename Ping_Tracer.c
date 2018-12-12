@@ -60,7 +60,7 @@ int main(int argc, char **argv)
         if (flag == 1)
         {
             ICMP(trama_icmp, (int)sizeof(trama_icmp), ICMP_PROT, ownIP, IP_dest, sec + 1, pID, ds, ifindex, ttl, printsetup + 1);
-            ICMP(trama_icmp, (int)sizeof(trama_icmp), ICMP_PROT, ownIP, IP_dest, sec + 2, pID, ds, ifindex, ttl, printsetup + 2);
+            //ICMP(trama_icmp, (int)sizeof(trama_icmp), ICMP_PROT, ownIP, IP_dest, sec + 2, pID, ds, ifindex, ttl, printsetup + 2);
             printf("\n");
             break;
         }

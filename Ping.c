@@ -542,7 +542,7 @@ int filterICMPreply(unsigned char *trama, int pID, unsigned short seqNumber, int
         {
             char ipstring[17];
             sprintf(ipstring, "%d.%d.%d.%d", trama[26], trama[27], trama[28], trama[29]);
-            printf("%.3f ms\t%d.%d.%d.%d\t\t%s", timeres, trama[26], trama[27], trama[28], trama[29], Hostname_from_IP(ipstring));
+            printf("%.3f ms\t%d.%d.%d.%d\t\t", timeres, trama[26], trama[27], trama[28], trama[29]);
         }
         /*if (printsetup == 2)
             printf("\t%.3f ms", timeres);
@@ -559,7 +559,7 @@ int filterICMPreply(unsigned char *trama, int pID, unsigned short seqNumber, int
         {
             char ipstring[17];
             sprintf(ipstring, "%d.%d.%d.%d", trama[26], trama[27], trama[28], trama[29]);
-            printf("%.3f ms\t%d.%d.%d.%d\t\t%s", timeres, trama[26], trama[27], trama[28], trama[29], Hostname_from_IP(ipstring));
+            printf("%.3f ms\t%d.%d.%d.%d\t\t", timeres, trama[26], trama[27], trama[28], trama[29]);
         }
         /*if (printsetup == 2)
             printf("   %.3f ms", timeres);
